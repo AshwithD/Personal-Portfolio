@@ -1,4 +1,4 @@
-* {
+  * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -56,9 +56,12 @@
       margin-bottom: 1rem;
     }
     .hero-text p {
-      color: #db8888;
+      color: #eacbcb;
       line-height: 1.6;
       margin-bottom: 2rem;
+    }
+    .hero h1:hover{
+      color: red;
     }
     .buttons a {
       text-decoration: none;
@@ -80,24 +83,27 @@
       opacity: 0.8;
     }
     .hero-img img {
-      max-width: 350px;
-      border-radius: 10px;
+      max-width: 400px;
+      border-radius: 50px;
     }
     .social-icons {
       margin-top: 2rem;
     }
     .social-icons a {
       margin-right: 1rem;
-      color: #ccd6f6;
+      color: #f3e5e2;
       text-decoration: none;
-      font-size: 1.2rem;
+      font-size: 3rem;
       transition: color 0.3s;
     }
+
+    
     .social-icons a:hover {
-      color: #00bfff;
+      color:red;
     }
     .my-logo
     {
-      height: 20px;
-      width: 100px;
+      height: 30px;
+      width: 150px;
     }
+    
