@@ -34,7 +34,7 @@
       color: rgb(198, 207, 219);
       font-weight: 300;
       transition: color 0.3s;
-    }
+    }  
     nav a:hover {
       color: #db0d11;
     }
@@ -155,4 +155,25 @@
     .skills-icons i:hover {
       color:red;
     }
-    
+ 
+    /* small screen */
+    @media only screen and (max-width:600px)
+    {
+      header
+      {
+        width:800px;
+      }
+      .logo
+      {
+          width:150px;
+      }
+      #home.hero
+      {
+        width: 800px;
+      }
+      #about
+      {
+        width: 800px;
+      }
+    }
+
